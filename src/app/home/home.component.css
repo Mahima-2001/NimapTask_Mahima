@@ -1,0 +1,70 @@
+.container{
+  width:100%;
+  height:100vh;
+  background-image:url('/assets/back2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-expand-lg
+{
+  float:right;
+  margin-right:3%;
+}
+
+.text
+{
+  margin-top: 15%;
+  margin-left: 8%;
+}
+
+.italic
+{
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+.place
+{
+  margin-left: 5%;
+  /* color: black; */
+  background-color: white;
+  width:40%;
+  height:7%
+}
+
+.btn
+{
+  margin-left: 3%;
+  width:7%;
+  height:7%;
+  background-color: rgb(20, 146, 196);
+}
+
+#myCheckbox{
+  margin-left: 5%;
+}
+
+.label
+{
+  margin-left:5%
+}
+
+.register
+{
+  margin-left:25%;
+  color:black;
+  background-color: rgb(20, 146, 196);
+}
+
+.demo{
+  color: black;
+  background-color: white;
+}
+
+
+.center
+{
+  text-align: center;
+}

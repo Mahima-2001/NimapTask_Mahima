@@ -1,0 +1,39 @@
+<h2>Profile</h2>
+<div *ngIf="user">
+  <div>
+    <strong>First Name:</strong> {{ user.firstName }}
+  </div>
+  <div>
+    <strong>Last Name:</strong> {{ user.lastName }}
+  </div>
+  <div>
+    <strong>Email:</strong> {{ user.email }}
+  </div>
+  <div>
+  <div>
+    <strong>Phone:</strong> {{ user.phone }}
+  </div>
+  <div>
+    <strong>Age:</strong> {{ user.age }}
+  </div>
+  <div>
+    <strong>State:</strong> {{ user.state}}
+  </div>
+  <div>
+    <strong>Country:</strong> {{ user.country }}
+  </div>
+
+  <div>
+    <strong>Interests:</strong> {{ user.interest }}
+  </div>
+  <div *ngIf="user.addressType === 'home'">
+    <strong>Address 1:</strong> {{ user.address1 }}
+    <strong>Address 2:</strong> {{ user.address2 }}
+  </div>
+  <div *ngIf="user.addressType === 'company'">
+    <strong>Company Address 1:</strong> {{ user.companyAddress1 }}
+    <strong>Company Address 2:</strong> {{ user.companyAddress2 }}
+  </div>
+  <button (click)="editPhoto()">Edit Photo</button>
+  <button (click)="editProfile()">Edit Profile</button>
+</div>
